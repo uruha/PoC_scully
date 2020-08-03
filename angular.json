@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dev-scully"
+    }
+  },
+  "defaultProject": "dev-scully",
+  "cli": {
+    "analytics": "5ed2a5c6-8541-444b-9b0a-aad7add56c4e"
+  }
 }
