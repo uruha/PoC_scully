@@ -2,14 +2,14 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import { ScullyRoutesService } from '@scullyio/ng-lib';
 
 @Component({
-  selector: 'app-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.css'],
+  selector: 'app-hoge',
+  templateUrl: './hoge.component.html',
+  styleUrls: ['./hoge.component.css'],
   preserveWhitespaces: true,
   encapsulation: ViewEncapsulation.Emulated
 
 })
-export class BlogComponent implements OnInit {
+export class HogeComponent implements OnInit {
   ngOnInit() {}
 
   constructor(public routerService: ScullyRoutesService) {}
