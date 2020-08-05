@@ -1,8 +1,7 @@
-<h1>Blog</h1>
+<h1>Hoge</h1>
 <h2 *ngFor="let route of routerService.available$ | async ">
-    <a *ngIf="route.route.indexOf('blog') !== -1" [routerLink]="route.route"
+    <a *ngIf="route.route.indexOf('hoge') !== -1" [routerLink]="route.route"
       >{{route.title}}</a
     >
 </h2>
-
 <scully-content></scully-content>
